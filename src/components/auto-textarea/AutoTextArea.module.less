@@ -1,0 +1,26 @@
+.textarea {
+  width: 100%;
+  background-color: transparent;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  padding-right: 36px;
+  resize: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.autoComplete {
+  :global {
+    .semi-portal-inner {
+      width: 100%;
+      min-width: unset;
+      .semi-dropdown-item {
+        padding: 4px 16px;
+      }
+    }
+  }
+}
